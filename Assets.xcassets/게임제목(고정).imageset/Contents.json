@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "게임제목(고정).png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
