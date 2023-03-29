@@ -36,28 +36,21 @@ struct Story1: View {
                 .scaledToFill()
                 .edgesIgnoringSafeArea(.all)
             
-            HStack{
-                Image("Story1_GroupOfQ")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(height: 130)
-                    .offset(y:49)
-                
-            }
+            Image("Story1_GroupOfQ")
+                .resizable()
+                .scaledToFit()
+                .frame(height: 130)
+                .offset(y:49)
             
-            HStack{
-                Image("Story1_Boat")
-                    .resizable()
-                    .scaledToFit()
-                    .offset(y:105)
-            }
-            
-            HStack{
-                Image("Story1_TextBackground")
-                    .resizable()
-                    .scaledToFit()
-                    .offset(y:120)
-            }
+            Image("Story1_Boat")
+                .resizable()
+                .scaledToFit()
+                .offset(y:105)
+
+            Image("Story1_TextBackground")
+                .resizable()
+                .scaledToFit()
+                .offset(y:120)
             
             Text("솔직하고 싶었던 우리...어쩌면 솔직하기 못했을 수도...\n")
                 .foregroundColor(.white)
