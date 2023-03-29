@@ -15,7 +15,7 @@ struct Story4: View {
     
     @State private var ellipseX: CGFloat = .zero
     @State private var ellipseY: CGFloat = .zero
-    let timer = Timer.publish(every:0.01, on:.main, in:.common).autoconnect()
+    let timer = Timer.publish(every:0.013, on:.main, in:.common).autoconnect()
     var body: some View {
         
         
@@ -51,18 +51,11 @@ struct Story4: View {
                         }
                     }
             }
-            Text("시간이 지나며")
-                .position(x:400,y:350)
+            Image("Story4_Text")
+                .resizable()
+                .frame(width: 1000, height: 100)
+                .position(x:380,y:340)
         }
-        HStack(){
-            
-            //
-            
-        }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .padding(0)
-        .background(
-        )
         
     }
     
